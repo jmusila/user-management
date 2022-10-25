@@ -67,7 +67,7 @@
                             <div class="col-md-6">
                                 <input id="role" type="text" class="form-control @error('email') is-invalid @enderror" name="role" value="{{ old('role') }}" required autocomplete="email">
                             </div>
-                            <li class="nav-item dropdown">
+                            <!-- <li class="nav-item dropdown">
                                 <a id="navbarDropdown" class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
                                     {{ dd($roles); }}
                                 </a>
@@ -83,7 +83,7 @@
                                         @csrf
                                     </form>
                                 </div>
-                            </li>
+                            </li> -->
                         </div>
 
                         <div class="row mb-0">
